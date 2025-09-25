@@ -5,7 +5,7 @@ import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="min-h-screen flex items-center justify-center py-20">
+    <section className="min-h-screen flex items-center justify-center py-10">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <div className="space-y-4">
@@ -73,17 +73,13 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="relative">
-          <div className="w-full h-96 bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center">
-            <div className="text-center space-y-4">
-              <div className="w-32 h-32 bg-primary/10 rounded-full mx-auto flex items-center justify-center">
-                <span className="text-4xl font-bold text-primary">YN</span>
-              </div>
-              <p className="text-muted-foreground">
-                Your professional photo here
-              </p>
-            </div>
-          </div>
+        {/* <div className="relative"> */}
+        <div className="w-full h-96 md:h-[500px] lg:h-[500px] rounded-2xl overflow-hidden">
+          <img
+            src="/my_photo.jpg"
+            alt="my_photo"
+            className="w-full h-full object-cover rounded-2xl transition-transform duration-300 hover:scale-105"
+          />
         </div>
       </div>
 
