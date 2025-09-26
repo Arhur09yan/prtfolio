@@ -22,21 +22,6 @@ export function Projects() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description:
-        "A full-featured e-commerce platform built with Next.js, featuring user authentication, payment processing, and admin dashboard.",
-      images: ["/image.png"],
-      technologies: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Stripe",
-        "Tailwind CSS",
-      ],
-      github: "https://github.com/yourusername/ecommerce-platform",
-      live: "https://your-ecommerce-demo.vercel.app",
-    },
-    {
       title: "CyberNet – Class Action Automation Platform",
       description:
         "A unified platform for class action lawyers to track data breaches, automate campaign creation, manage leads, and query legal documents via an AI assistant.",
@@ -88,6 +73,21 @@ export function Projects() {
       ],
       github: "https://github.com/yourusername/ai-front-desk",
       live: "https://your-ai-front-desk-demo.vercel.app",
+    },
+    {
+      title: "E-Commerce Platform",
+      description:
+        "A full-featured e-commerce platform built with Next.js, featuring user authentication, payment processing, and admin dashboard.",
+      images: ["/image.png"],
+      technologies: [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Stripe",
+        "Tailwind CSS",
+      ],
+      github: "https://github.com/yourusername/ecommerce-platform",
+      live: "https://your-ecommerce-demo.vercel.app",
     },
   ];
 
