@@ -87,7 +87,7 @@ export function Contact() {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="akurghinyan09@gmail.com"
+                      placeholder="Your email"
                       className="bg-background border-border"
                     />
                   </div>

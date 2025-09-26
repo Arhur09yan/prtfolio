@@ -47,7 +47,7 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-      <nav className="max-w-6xl mx-auto px-6 lg:px-8 py-4">
+      <nav className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
         <div className="flex items-center justify-between">
           <div className="text-lg font-semibold text-foreground">
             Arthur Kurghinyan

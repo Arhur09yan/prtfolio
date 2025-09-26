@@ -17,23 +17,23 @@ export function Skills() {
     {
       title: "Frontend",
       skills: [
-        { name: "React", level: 90, icon: SiReact, color: "#61DAFB" },
-        { name: "Next.js", level: 85, icon: SiNextdotjs, color: "#FFFFFF" },
-        { name: "TypeScript", level: 80, icon: SiTypescript, color: "#3178C6" },
+        { name: "React", level: 95, icon: SiReact, color: "#61DAFB" },
+        { name: "Next.js", level: 90, icon: SiNextdotjs, color: "#FFFFFF" },
+        { name: "TypeScript", level: 90, icon: SiTypescript, color: "#3178C6" },
         { name: "JavaScript", level: 95, icon: SiJavascript, color: "#F7DF1E" },
         { name: "HTML/CSS", level: 90, icon: SiHtml5, color: "#E34F26" },
-        { name: "Tailwind CSS", level: 85, icon: SiTailwindcss, color: "#06B6D4" },
+        { name: "Tailwind CSS", level: 90, icon: SiTailwindcss, color: "#06B6D4" },
       ],
     },
     {
       title: "Backend & Tools",
       skills: [
-        { name: "Node.js", level: 60, icon: SiNodedotjs, color: "#339933" },
-        { name: "Python", level: 50, icon: SiPython, color: "#3776AB" },
+        { name: "Node.js", level: 50, icon: SiNodedotjs, color: "#339933" },
+        { name: "Python", level: 40, icon: SiPython, color: "#3776AB" },
         { name: "Git", level: 85, icon: SiGit, color: "#F05032" },
-        { name: "REST APIs", level: 80, icon: FaServer, color: "#0EA5E9" },
+        { name: "REST APIs", level: 70, icon: FaServer, color: "#0EA5E9" },
         { name: "Database", level: 65, icon: SiPostgresql, color: "#336791" },
-        { name: "Deployment", level: 75, icon: FaRocket, color: "#10B981" },
+        { name: "Deployment", level: 85, icon: FaRocket, color: "#10B981" },
       ],
     },
   ]

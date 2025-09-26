@@ -49,7 +49,7 @@ export function Hero() {
 
           <div className="flex items-center gap-6 pt-4">
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Arhur09yan"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -57,7 +57,7 @@ export function Hero() {
               <Github className="w-6 h-6" />
             </a>
             <a
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/artur-kurghinyan-120b15230/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
