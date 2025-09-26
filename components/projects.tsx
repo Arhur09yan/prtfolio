@@ -25,7 +25,7 @@ export function Projects() {
       title: "CyberNet – Class Action Automation Platform",
       description:
         "A unified platform for class action lawyers to track data breaches, automate campaign creation, manage leads, and query legal documents via an AI assistant.",
-      images: ["/cybernet_1.png", "/cybernet_2.png", "/cybernet_3.png"],
+      images: ["/cybernet_2.png", "/cybernet_1.png", "/cybernet_3.png"],
       technologies: ["React.js", "Redux", "Socket.io", "Material UI"],
       github: "https://github.com/yourusername/cybernet",
       live: "https://your-cybernet-demo.vercel.app",
@@ -48,7 +48,7 @@ export function Projects() {
       title: "Global Airlines – Best Way to Fly",
       description:
         "A modern airline web experience showcasing routes, cabins, and services. Focused on performance, accessibility, and an elegant UI that scales across devices.",
-      images: ["/global_1.png", "/global_2.png", "/global_3.png"],
+      images: ["/global_2.png", "/global_1.png", "/global_3.png"],
       technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Shadcn UI"],
       github: "https://github.com/yourusername/global-airlines",
       live: "https://your-global-airlines-demo.vercel.app",
@@ -58,8 +58,8 @@ export function Projects() {
       description:
         "Custom AI agents that execute complex business processes end-to-end, integrating with existing workflows to handle customer engagement, task completion, and ongoing operations with high accuracy.",
       images: [
-        "/aifrontdesk_1.png",
         "/aifrontdesk_2.png",
+        "/aifrontdesk_1.png",
         "/aifrontdesk_3.png",
         "/aifrontdesk_4.png",
       ],
