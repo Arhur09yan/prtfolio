@@ -160,7 +160,7 @@ export function Projects() {
                     ))}
                   </div>
 
-                  <div className="flex items-center gap-3 pt-2">
+                  {/* <div className="flex items-center gap-3 pt-2">
                     <Button variant="outline" size="sm" asChild>
                       <a
                         href={project.github}
@@ -185,7 +185,7 @@ export function Projects() {
                         Live Demo
                       </a>
                     </Button>
-                  </div>
+                  </div> */}
                 </div>
               </CardContent>
             </Card>
